@@ -1,0 +1,46 @@
+# Скрапинг `backend:8000` работает только если контейнер Prometheus в той же Docker-сети,
+# что и сервис backend (в docker-compose.dev.yml — сеть `devnet`). Иначе DNS не найдёт `backend`.
+#
+# Глобальные настройки
+global:
+  #  Интервал очистки
+  scrape_interval: 15s
+  #  Таймаут ожидания очистки
+  scrape_timeout: 10s
+  #  Интервал оценки
+  evaluation_interval: 15s
+
+# Настройки оповещений
+alerting:
+#  Настройки алертменеджеров
+  alertmanagers:
+#  Следовать ли перенаправлениям
+  - follow_redirects: true
+#    Включен ли http2
+    enable_http2: true
+#    Используем http при отправке алертов
+    scheme: http
+    timeout: 10s
+    api_version: v2
+    
+    static_configs:
+    - targets: []
+
+scrape_configs:
+- job_name: prometheus
+  honor_timestamps: true
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  metrics_path: /metrics
+  scheme: http
+  follow_redirects: true
+  enable_http2: true
+  static_configs:
+  - targets:
+    - localhost:9090
+
+- job_name: 'fastapi'
+  scrape_interval: 10s
+  metrics_path: /metrics
+  static_configs:
+    - targets: ['backend:8000']

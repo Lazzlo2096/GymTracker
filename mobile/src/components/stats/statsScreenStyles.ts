@@ -1,0 +1,226 @@
+import { StyleSheet } from "react-native";
+import type { useAppTheme } from "@/theme/appTheme";
+import { fonts } from "@/theme/typography";
+
+export function createStatsScreenStyles(theme: ReturnType<typeof useAppTheme>) {
+  return StyleSheet.create({
+    scroll: {
+      flex: 1,
+      backgroundColor: theme.bg,
+    },
+    scrollContent: {
+      paddingBottom: 8,
+    },
+    screenTitle: {
+      fontFamily: fonts.semiBold,
+      fontSize: 28,
+      lineHeight: 34,
+      color: theme.text,
+      letterSpacing: -0.5,
+      marginBottom: 16,
+    },
+    mockBadge: {
+      alignSelf: "flex-start",
+      paddingHorizontal: 10,
+      paddingVertical: 4,
+      borderRadius: 999,
+      backgroundColor: theme.accentSoft,
+      marginBottom: 16,
+    },
+    mockBadgeText: {
+      fontFamily: fonts.medium,
+      fontSize: 12,
+      lineHeight: 16,
+      color: theme.accent,
+    },
+    periodRow: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: 8,
+      marginBottom: 16,
+    },
+    periodChip: {
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      borderRadius: 999,
+      borderWidth: 1,
+      borderColor: theme.border,
+      backgroundColor: theme.card,
+    },
+    periodChipActive: {
+      borderColor: theme.accent,
+      backgroundColor: theme.accentSoft,
+    },
+    periodChipText: {
+      fontFamily: fonts.medium,
+      fontSize: 13,
+      lineHeight: 18,
+      color: theme.textMuted,
+    },
+    periodChipTextActive: {
+      color: theme.accent,
+      fontFamily: fonts.semiBold,
+    },
+    kpiGrid: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: 10,
+      marginBottom: 12,
+    },
+    kpiCard: {
+      width: "48%",
+      flexGrow: 1,
+      minWidth: 148,
+      borderRadius: 14,
+      backgroundColor: theme.card,
+      padding: 14,
+      gap: 6,
+    },
+    kpiValue: {
+      fontFamily: fonts.extraBold,
+      fontSize: 20,
+      lineHeight: 24,
+      color: theme.text,
+    },
+    kpiLabel: {
+      fontFamily: fonts.medium,
+      fontSize: 12,
+      lineHeight: 16,
+      color: theme.textMuted,
+    },
+    kpiDelta: {
+      fontFamily: fonts.regular,
+      fontSize: 11,
+      lineHeight: 15,
+      color: theme.accent,
+    },
+    kpiIconRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 8,
+    },
+    metricTabsWrap: {
+      marginBottom: 12,
+    },
+    currentStreakCard: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 12,
+      padding: 14,
+      borderRadius: 12,
+      backgroundColor: theme.accentSoft,
+      marginBottom: 12,
+    },
+    currentStreakEmoji: {
+      fontSize: 28,
+      lineHeight: 32,
+    },
+    currentStreakTitle: {
+      fontFamily: fonts.semiBold,
+      fontSize: 16,
+      lineHeight: 22,
+      color: theme.text,
+    },
+    currentStreakHint: {
+      fontFamily: fonts.regular,
+      fontSize: 13,
+      lineHeight: 18,
+      color: theme.textMuted,
+      marginTop: 2,
+    },
+    typeRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 10,
+      marginBottom: 8,
+    },
+    typeLabel: {
+      width: 88,
+      fontFamily: fonts.medium,
+      fontSize: 12,
+      lineHeight: 16,
+      color: theme.textMuted,
+    },
+    typeBarTrack: {
+      flex: 1,
+      height: 10,
+      borderRadius: 5,
+      backgroundColor: theme.border,
+      overflow: "hidden",
+    },
+    typeBarFill: {
+      height: "100%",
+      borderRadius: 5,
+      backgroundColor: theme.accent,
+    },
+    typePercent: {
+      width: 36,
+      fontFamily: fonts.semiBold,
+      fontSize: 12,
+      lineHeight: 16,
+      color: theme.text,
+      textAlign: "right",
+    },
+    exerciseRow: {
+      flexDirection: "row",
+      alignItems: "flex-start",
+      gap: 10,
+      paddingVertical: 10,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderBottomColor: theme.divider,
+    },
+    exerciseRank: {
+      width: 22,
+      fontFamily: fonts.semiBold,
+      fontSize: 14,
+      lineHeight: 20,
+      color: theme.textMuted,
+      textAlign: "center",
+    },
+    exerciseBody: {
+      flex: 1,
+      minWidth: 0,
+    },
+    exerciseName: {
+      fontFamily: fonts.semiBold,
+      fontSize: 15,
+      lineHeight: 20,
+      color: theme.text,
+    },
+    exerciseMeta: {
+      marginTop: 2,
+      fontFamily: fonts.regular,
+      fontSize: 12,
+      lineHeight: 16,
+      color: theme.textMuted,
+    },
+    weightTrendChartWrap: {
+      width: "100%",
+      marginTop: 8,
+      minHeight: 115,
+    },
+    gymRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 10,
+      paddingVertical: 10,
+    },
+    gymName: {
+      flex: 1,
+      fontFamily: fonts.semiBold,
+      fontSize: 15,
+      lineHeight: 20,
+      color: theme.text,
+    },
+    gymMeta: {
+      fontFamily: fonts.regular,
+      fontSize: 12,
+      lineHeight: 16,
+      color: theme.textMuted,
+      textAlign: "right",
+    },
+    sectionBlock: {
+      marginBottom: 4,
+    },
+  });
+}

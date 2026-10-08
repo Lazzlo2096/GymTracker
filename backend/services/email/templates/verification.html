@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Подтвердите email — GymTracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #F8F7FC;
+      font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+      color: #0f172a;
+      -webkit-font-smoothing: antialiased;
+    }
+    .scene {
+      position: relative;
+      overflow: hidden;
+      padding: 40px 16px 48px;
+      background: linear-gradient(165deg, #F8F7FC 0%, #EEE9FF 45%, #F8F7FC 100%);
+    }
+    /* Декоративные фигуры на фоне */
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .blob-1 {
+      width: 280px;
+      height: 280px;
+      top: -90px;
+      right: -70px;
+      background: radial-gradient(circle, rgba(117, 44, 210, 0.18) 0%, rgba(117, 44, 210, 0) 70%);
+    }
+    .blob-2 {
+      width: 200px;
+      height: 200px;
+      bottom: 20px;
+      left: -60px;
+      background: radial-gradient(circle, rgba(0, 120, 227, 0.12) 0%, rgba(0, 120, 227, 0) 70%);
+    }
+    .blob-3 {
+      width: 120px;
+      height: 120px;
+      top: 42%;
+      right: 8%;
+      background: rgba(238, 233, 255, 0.9);
+      border: 2px solid rgba(117, 44, 210, 0.08);
+    }
+    .blob-4 {
+      width: 56px;
+      height: 56px;
+      top: 18%;
+      left: 6%;
+      background: rgba(0, 186, 0, 0.1);
+      border-radius: 16px;
+      transform: rotate(24deg);
+    }
+    .blob-5 {
+      width: 36px;
+      height: 36px;
+      bottom: 28%;
+      right: 14%;
+      background: rgba(117, 44, 210, 0.14);
+      border-radius: 10px;
+      transform: rotate(-12deg);
+    }
+    .ring {
+      position: absolute;
+      border: 2px solid rgba(117, 44, 210, 0.12);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .ring-1 { width: 90px; height: 90px; top: 8%; left: 12%; }
+    .ring-2 { width: 48px; height: 48px; bottom: 12%; left: 18%; }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 480px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow:
+        0 4px 6px rgba(25, 10, 61, 0.04),
+        0 16px 40px rgba(117, 44, 210, 0.1);
+      border: 1px solid rgba(117, 44, 210, 0.06);
+    }
+    .hero {
+      position: relative;
+      padding: 28px 28px 24px;
+      background: linear-gradient(135deg, #752CD2 0%, #5b21b6 55%, #7c3aed 100%);
+      overflow: hidden;
+    }
+    .hero-blob-a {
+      position: absolute;
+      width: 140px;
+      height: 140px;
+      top: -50px;
+      right: -30px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+    }
+    .hero-blob-b {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      bottom: -20px;
+      left: 20px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .hero-inner { position: relative; z-index: 1; }
+    .logo {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+      margin-bottom: 14px;
+    }
+    .icon-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      background: #EEE9FF;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      margin-bottom: 14px;
+      line-height: 0;
+    }
+    .icon-badge svg {
+      display: block;
+      width: 26px;
+      height: 26px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+      margin: 0;
+      color: #ffffff;
+      line-height: 1.3;
+    }
+    .hero-sub {
+      margin: 8px 0 0;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.5;
+    }
+    .content {
+      padding: 28px 28px 32px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #64748b;
+      margin: 0 0 14px;
+    }
+    .greeting strong {
+      color: #11142D;
+      font-weight: 700;
+    }
+    .btn-wrap { margin: 26px 0 22px; text-align: center; }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #752CD2 0%, #6d28d9 100%);
+      color: #ffffff !important;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 15px 32px;
+      border-radius: 14px;
+      box-shadow: 0 8px 20px rgba(117, 44, 210, 0.28);
+      letter-spacing: 0.01em;
+    }
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #E6E3F0, transparent);
+      margin: 20px 0 16px;
+    }
+    .hint {
+      font-size: 12px;
+      line-height: 1.55;
+      color: #94a3b8;
+      word-break: break-all;
+      margin: 0 0 10px;
+    }
+    .hint a { color: #752CD2; font-weight: 600; text-decoration: none; }
+    .footer-note {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+      margin-top: 22px;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <div class="scene">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+    <div class="blob blob-5"></div>
+    <div class="ring ring-1"></div>
+    <div class="ring ring-2"></div>
+
+    <div class="wrap">
+      <div class="hero">
+        <div class="hero-blob-a"></div>
+        <div class="hero-blob-b"></div>
+        <div class="hero-inner">
+          <div class="logo">GymTracker</div>
+          <div class="icon-badge" aria-hidden="true">
+            <!-- mail-unread-outline, как в профиле (Ionicons) -->
+            <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M48 112h416v256H48V112z"
+                stroke="#752CD2"
+                stroke-width="28"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M48 144l208 128 208-128"
+                stroke="#752CD2"
+                stroke-width="28"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h1>Подтвердите почту</h1>
+          <p class="hero-sub">Один шаг до полного доступа к аккаунту</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <p class="greeting">Здравствуйте, <strong>{{ display_name }}</strong>!</p>
+        <p>Чтобы завершить регистрацию, подтвердите Ваш адрес.</p>
+        <p>Для того чтобы подтвердить почту нажмите кнопку ниже:</p>
+
+        <div class="btn-wrap">
+          <a class="btn" href="{{ verify_url }}" target="_blank" rel="noopener">Подтвердить email</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="hint">Если кнопка не работает, скопируйте ссылку:<br />
+          <a href="{{ verify_url }}">{{ verify_url }}</a>
+        </p>
+        <p class="hint">Ссылка действует {{ ttl_hours }} ч. Если вы не регистрировались — просто проигнорируйте письмо.</p>
+      </div>
+    </div>
+
+    <p class="footer-note">GymTracker · трекер тренировок</p>
+  </div>
+</body>
+</html>

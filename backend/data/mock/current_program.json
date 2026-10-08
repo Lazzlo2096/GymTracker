@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "PPL — 3 тренировки",
+  "schedule_type": "week_fixed",
+  "days": [
+    { "slot": 1, "kind": "workout", "iso_weekday": 1, "template_id": 2, "enabled": true },
+    { "slot": 2, "kind": "rest", "iso_weekday": 2, "template_id": null, "enabled": false },
+    { "slot": 3, "kind": "workout", "iso_weekday": 3, "template_id": 3, "enabled": true },
+    { "slot": 4, "kind": "rest", "iso_weekday": 4, "template_id": null, "enabled": false },
+    { "slot": 5, "kind": "workout", "iso_weekday": 5, "template_id": 4, "enabled": true },
+    { "slot": 6, "kind": "rest", "iso_weekday": 6, "template_id": null, "enabled": false },
+    { "slot": 7, "kind": "rest", "iso_weekday": 7, "template_id": null, "enabled": false }
+  ]
+}

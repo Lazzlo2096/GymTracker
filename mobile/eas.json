@@ -1,0 +1,52 @@
+{
+  "cli": {
+    "version": ">= 16.16.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://habitpro.ru"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "habitpro-apk": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://habitpro.ru"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "habitpro-aab": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://habitpro.ru"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://habitpro.ru"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

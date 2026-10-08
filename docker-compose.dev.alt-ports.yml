@@ -1,0 +1,17 @@
+# Альтернативные порты на хосте, если 5437 / 6437 / 8000 заняты другими контейнерами.
+# Запуск: docker compose -f docker-compose.dev.yml -f docker-compose.dev.alt-ports.yml up -d
+# API: http://127.0.0.1:8001  Postgres: localhost:5438
+
+services:
+  postgres:
+    ports: !override
+      - "5438:5432"
+  pgbouncer:
+    ports: !override
+      - "6438:6432"
+  backend:
+    ports: !override
+      - "8001:8000"
+  redis_container:
+    ports: !override
+      - "6380:6379"

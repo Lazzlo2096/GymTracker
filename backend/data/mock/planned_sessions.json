@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2026-06-16",
+    "title": "Ноги",
+    "gym_name": "Iron Gym",
+    "exercises_count": 5,
+    "estimated_minutes": 58,
+    "status": "plan_ready",
+    "source": "repeat_previous"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "Верх тела",
+    "gym_name": "Iron Gym",
+    "exercises_count": 6,
+    "estimated_minutes": 52,
+    "status": "plan_ready"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "Тяга и задняя цепь",
+    "gym_name": "World Fitness",
+    "exercises_count": 4,
+    "estimated_minutes": 45,
+    "status": "draft"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "Кардио + мобилити",
+    "gym_name": null,
+    "exercises_count": 3,
+    "estimated_minutes": 35,
+    "status": "plan_ready",
+    "source": "from_template"
+  }
+]

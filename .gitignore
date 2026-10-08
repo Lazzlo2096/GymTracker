@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+build/
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & debug
+*.log
+logs/
+
+# Uploaded media (local dev)
+backend/media/
+
+# Env files (secrets)
+.env
+.env.local
+.env.*.local
+.env.prod
+deploy/prod/CREDS.generated.txt
+pgbouncer/userlist.prod.txt
+docker/pgadmin/servers.prod.json
+
+.idea

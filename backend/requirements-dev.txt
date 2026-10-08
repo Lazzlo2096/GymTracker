@@ -1,0 +1,10 @@
+-r requirements.txt
+
+pytest==9.1.1
+pytest-asyncio==1.4.0
+
+# post_write_hook в alembic.ini форматирует новые ревизии
+black==26.5.1
+
+# tests/seed_scripts и живой smoke-прогон tests/test_api_v1_endpoints_http_local.py
+requests==2.34.2

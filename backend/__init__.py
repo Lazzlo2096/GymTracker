@@ -1,0 +1,1 @@
+"""GymTracker backend application."""

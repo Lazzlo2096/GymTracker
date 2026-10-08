@@ -1,0 +1,27 @@
+{
+  "_comment": "Эталон weight_composition v1. bodyweight: source=user_bodyweight_history + cached_bodyweight_kg (дневник) или source=user_entered_now + user_entered_bodyweight_kg (ручной ввод).",
+  "type": "set",
+  "reps": 8,
+  "weight_kg": 98,
+  "weight_string": "св. вес + пояс 20",
+  "weight_composition": {
+    "version": 1,
+    "cached_effective_kg": 87,
+    "cached_display": "св. вес + пояс 9кг",
+    "terms": [
+      {
+        "kind": "bodyweight",
+        "cached_bodyweight_kg": 78,
+        "source": "user_bodyweight_history"
+      },
+      {
+        "kind": "plates",
+        "kgs": [2.5, 5, 1.5],
+        "mirror": false,
+        "meta": {
+          "placement": "пояс"
+        }
+      }
+    ]
+  }
+}

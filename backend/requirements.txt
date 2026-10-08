@@ -1,0 +1,38 @@
+uvicorn[standard]
+# <0.137: prometheus-fastapi-instrumentator 8.x падает на _IncludedRouter (нет .path)
+fastapi[all]>=0.115.0,<0.137
+
+pydantic[email]
+pydantic-settings
+
+sqlalchemy
+asyncpg
+alembic
+psycopg2-binary
+
+httpx
+requests
+black
+
+# Auth (JWT in httpOnly cookies)
+authx
+passlib[argon2]
+argon2-cffi
+
+pika
+aio-pika
+
+prometheus-fastapi-instrumentator
+
+sqladmin
+
+# Redis: кэш (fastapi-cache2) и rate limit (pyrate-limiter)
+redis
+pyrate-limiter
+fastapi-cache2
+
+# Health check: CPU/RAM/диск (TGL-37)
+psutil
+
+# Async SMTP (TGL-38)
+aiosmtplib

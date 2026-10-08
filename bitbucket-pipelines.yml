@@ -1,0 +1,45 @@
+image: atlassian/default-image:3
+
+pipelines:
+  branches:
+    prod_server:
+      - step:
+          name: Prepare deploy
+          script:
+            - echo "Push to prod_server — ready for deploy"
+      - step:
+          name: Deploy to production
+          deployment: production
+          trigger: manual
+          script:
+          
+            - pipe: atlassian/ssh-run:0.8.1
+              variables:
+                SSH_USER: $DEPLOY_USER
+                SERVER: $DEPLOY_HOST
+                #SSH_KEY: $SSH_PRIVATE_KEY
+                
+                MODE: 'command'
+                #COMMAND: 'bash /root/repos/gymtracker/deploy/prod/pipeline-deploy.sh'
+                COMMAND: >-
+                  bash -lc 'set -euo pipefail;
+                  cd /root/repos/gymtracker &&
+                  git fetch origin prod_server &&
+                  git checkout prod_server &&
+                  git pull origin prod_server &&
+                  ./deploy/prod/patch-env.sh &&
+                  ./deploy/prod/up.sh'
+
+  custom:
+    deploy-production:
+      - step:
+          name: Deploy to production
+          deployment: production
+          script:
+            - pipe: atlassian/ssh-run:0.8.1
+              variables:
+                SSH_USER: $DEPLOY_USER
+                SERVER: $DEPLOY_HOST
+                SSH_KEY: $SSH_PRIVATE_KEY
+                MODE: 'command'
+                COMMAND: 'bash /root/repos/gymtracker/deploy/prod/pipeline-deploy.sh'

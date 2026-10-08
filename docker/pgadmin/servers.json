@@ -1,0 +1,15 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Gymtracker (postgres)",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "gymtracker",
+      "Username": "postgres",
+      "Password": "postgres",
+      "SSLMode": "prefer",
+      "Comment": "Docker Compose: сервис postgres (прямое подключение; для приложения используется PgBouncer)."
+    }
+  }
+}

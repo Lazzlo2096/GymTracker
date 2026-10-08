@@ -1,0 +1,603 @@
+[
+  {
+    "workout_date": "2025-10-03",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-10-03T18:00:00" },
+          { "type": "set", "weight_kg": 60, "reps": 8 },
+          { "type": "set", "weight_kg": 60, "reps": 7 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-10-03T18:25:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-10-03T18:30:00" },
+          { "type": "set", "weight_kg": 40, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-10-03T18:50:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-10-03T18:55:00" },
+          { "type": "set", "weight_kg": 20, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-10-03T19:10:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-10-03T19:15:00" },
+          { "type": "set", "weight_kg": 15, "reps": 15 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-10-03T19:30:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2025-11-08",
+    "day_title": "Ноги",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-11-08T17:00:00" },
+          { "type": "set", "weight_kg": 80, "reps": 6 },
+          { "type": "set", "weight_kg": 80, "reps": 6 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-11-08T17:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-11-08T17:45:00" },
+          { "type": "set", "weight_kg": 50, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-11-08T18:05:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-11-08T18:10:00" },
+          { "type": "set", "weight_kg": 30, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-11-08T18:25:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2025-11-08T18:30:00" },
+          { "type": "set", "weight_kg": 0, "reps": 20 },
+          { "type": "mark", "mark_type": "end", "datetime": "2025-11-08T18:40:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-01-15",
+    "day_title": "Тяга",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-01-15T19:00:00" },
+          { "type": "set", "weight_kg": 100, "reps": 5 },
+          { "type": "set", "weight_kg": 100, "reps": 5 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-01-15T19:35:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-01-15T19:40:00" },
+          { "type": "set", "weight_kg": 45, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-01-15T20:00:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-02-09",
+    "day_title": "Ноги",
+    "note": "Хорошая тренировка ног, колено не беспокоило. Добавил разминку 10 мин.",
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-09T18:00:00" },
+          { "type": "set", "weight_kg": 90, "reps": 6 },
+          { "type": "set", "weight_kg": 90, "reps": 5 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-09T18:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-09T18:45:00" },
+          { "type": "set", "weight_kg": 60, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-09T19:05:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-09T19:10:00" },
+          { "type": "set", "weight_kg": 40, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-09T19:25:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-09T19:30:00" },
+          { "type": "set", "weight_kg": 20, "reps": 15 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-09T19:45:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-02-16",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-16T18:00:00" },
+          { "type": "set", "weight_kg": 65, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-16T18:30:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-16T18:35:00" },
+          { "type": "set", "weight_kg": 35, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-16T18:55:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-02-17",
+    "day_title": "Кардио",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-17T07:00:00" },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-17T07:40:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-02-18",
+    "day_title": "Тяга и задняя цепь",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-18T19:00:00" },
+          { "type": "set", "weight_kg": 110, "reps": 4 },
+          { "type": "set", "weight_kg": 110, "reps": 4 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-18T19:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-18T19:45:00" },
+          { "type": "set", "weight_kg": 50, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-18T20:05:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-18T20:10:00" },
+          { "type": "set", "weight_kg": 25, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-18T20:25:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-02-18T20:30:00" },
+          { "type": "set", "weight_kg": 0, "reps": 15 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-02-18T20:40:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-03-26",
+    "day_title": "Жим",
+    "note": "После болезни — лёгкий объём. Сохранил технику на жиме.",
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-03-26T18:00:00" },
+          { "type": "set", "weight_kg": 50, "reps": 8 },
+          { "type": "set", "weight_kg": 50, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-03-26T18:35:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-03-26T18:40:00" },
+          { "type": "set", "weight_kg": 30, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-03-26T18:55:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-04-14",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-14T18:00:00" },
+          { "type": "set", "weight_kg": 70, "reps": 6 },
+          { "type": "set", "weight_kg": 70, "reps": 6 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-14T18:35:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-14T18:40:00" },
+          { "type": "set", "weight_kg": 40, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-14T19:00:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-14T19:05:00" },
+          { "type": "set", "weight_kg": 18, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-14T19:20:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-14T19:25:00" },
+          { "type": "set", "weight_kg": 12, "reps": 15 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-14T19:40:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-04-18",
+    "day_title": "Становая",
+    "note": "ПРи в становой: 140×3. Настроение огонь.",
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-18T17:00:00" },
+          { "type": "set", "weight_kg": 120, "reps": 3 },
+          { "type": "set", "weight_kg": 140, "reps": 3 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-18T17:45:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-18T17:50:00" },
+          { "type": "set", "weight_kg": 60, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-18T18:10:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-18T18:15:00" },
+          { "type": "set", "weight_kg": 40, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-18T18:30:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-04-18T18:35:00" },
+          { "type": "set", "weight_kg": 0, "reps": 20 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-04-18T18:50:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-05-20",
+    "day_title": "Лёгкий день",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-05-20T18:00:00" },
+          { "type": "set", "weight_kg": 40, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-05-20T18:30:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-05-27",
+    "day_title": "Полный объём",
+    "note": "Зал был переполнен, сократил отдых. Заметка: взять пояс в следующий раз.",
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-05-27T18:00:00" },
+          { "type": "set", "weight_kg": 75, "reps": 6 },
+          { "type": "set", "weight_kg": 75, "reps": 6 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-05-27T18:30:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-05-27T18:35:00" },
+          { "type": "set", "weight_kg": 45, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-05-27T18:55:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-05-27T19:00:00" },
+          { "type": "set", "weight_kg": 25, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-05-27T19:15:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-05-27T19:20:00" },
+          { "type": "set", "weight_kg": 15, "reps": 15 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-05-27T19:35:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-06-01",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-01T18:00:00" },
+          { "type": "set", "weight_kg": 70, "reps": 7 },
+          { "type": "set", "weight_kg": 70, "reps": 6 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-01T18:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-01T18:45:00" },
+          { "type": "set", "weight_kg": 40, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-01T19:05:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-01T19:10:00" },
+          { "type": "set", "weight_kg": 20, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-01T19:25:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-01T19:30:00" },
+          { "type": "set", "weight_kg": 12, "reps": 15 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-01T19:45:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-06-08",
+    "day_title": "Ноги",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-08T17:30:00" },
+          { "type": "set", "weight_kg": 95, "reps": 5 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-08T18:10:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-08T18:15:00" },
+          { "type": "set", "weight_kg": 55, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-08T18:35:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-06-11",
+    "day_title": "Тяга",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-11T19:00:00" },
+          { "type": "set", "weight_kg": 115, "reps": 4 },
+          { "type": "set", "weight_kg": 115, "reps": 4 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-11T19:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-11T19:45:00" },
+          { "type": "set", "weight_kg": 50, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-11T20:05:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-11T20:10:00" },
+          { "type": "set", "weight_kg": 30, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-11T20:25:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-06-11T20:30:00" },
+          { "type": "set", "weight_kg": 0, "reps": 20 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-06-11T20:40:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-07-02",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-02T18:00:00" },
+          { "type": "set", "weight_kg": 72, "reps": 6 },
+          { "type": "set", "weight_kg": 72, "reps": 6 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-02T18:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-02T18:45:00" },
+          { "type": "set", "weight_kg": 42, "reps": 10 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-02T19:05:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-07-03",
+    "day_title": "Ноги",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-03T17:00:00" },
+          { "type": "set", "weight_kg": 100, "reps": 5 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-03T17:45:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-03T17:50:00" },
+          { "type": "set", "weight_kg": 60, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-03T18:15:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-07-04",
+    "day_title": "Кардио + кор",
+    "note": "Короткая сессия после пробежки.",
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-04T08:00:00" },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-04T08:35:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-07-28",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-28T18:00:00" },
+          { "type": "set", "weight_kg": 75, "reps": 6 },
+          { "type": "set", "weight_kg": 75, "reps": 5 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-28T18:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-28T18:45:00" },
+          { "type": "set", "weight_kg": 45, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-28T19:05:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-07-28T19:10:00" },
+          { "type": "set", "weight_kg": 22, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-07-28T19:25:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-08-04",
+    "day_title": "Ноги",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-04T17:30:00" },
+          { "type": "set", "weight_kg": 100, "reps": 5 },
+          { "type": "set", "weight_kg": 100, "reps": 5 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-04T18:15:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-04T18:20:00" },
+          { "type": "set", "weight_kg": 60, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-04T18:40:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-04T18:45:00" },
+          { "type": "set", "weight_kg": 40, "reps": 12 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-04T19:00:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-04T19:05:00" },
+          { "type": "set", "weight_kg": 0, "reps": 20 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-04T19:15:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-08-05",
+    "day_title": "Верх тела",
+    "note": null,
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-05T18:00:00" },
+          { "type": "set", "weight_kg": 75, "reps": 6 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-05T18:35:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-05T18:40:00" },
+          { "type": "set", "weight_kg": 45, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-05T19:00:00" }
+        ]
+      }
+    ]
+  },
+  {
+    "workout_date": "2026-08-06",
+    "day_title": "Тяга",
+    "note": "Серия перед сидом статистики.",
+    "exercises": [
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-06T19:00:00" },
+          { "type": "set", "weight_kg": 120, "reps": 4 },
+          { "type": "set", "weight_kg": 120, "reps": 3 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-06T19:45:00" }
+        ]
+      },
+      {
+        "sets_json": [
+          { "type": "mark", "mark_type": "start", "datetime": "2026-08-06T19:50:00" },
+          { "type": "set", "weight_kg": 55, "reps": 8 },
+          { "type": "mark", "mark_type": "end", "datetime": "2026-08-06T20:10:00" }
+        ]
+      }
+    ]
+  }
+]

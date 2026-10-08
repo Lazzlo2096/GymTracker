@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GymTracker — панели</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 36rem;
+      margin: 3rem auto;
+      padding: 0 1rem;
+      color: #1e1b4b;
+    }
+    h1 { font-size: 1.35rem; margin-bottom: 0.25rem; }
+    p.hint { color: #64748b; font-size: 0.9rem; margin-top: 0; }
+    ul { line-height: 2.2; padding-left: 1.2rem; }
+    a { color: #5b21b6; font-weight: 500; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>GymTracker — сервисы</h1>
+  <p class="hint">Админ-панели (только для команды). Основное приложение — на главной странице.</p>
+  <ul>
+    <li><a href="/pgadmin/">pgAdmin</a> — PostgreSQL</li>
+    <li><a href="/grafana/">Grafana</a> — дашборды и метрики</li>
+    <li><a href="/prometheus/">Prometheus</a> — сырые метрики API</li>
+    <li><a href="/redis/">Redis Insight</a> — кэш GET и ключи</li>
+    <li><a href="/maildev/">MailDev</a> — исходящая почта (dev / без реального SMTP)</li>
+  </ul>
+</body>
+</html>
